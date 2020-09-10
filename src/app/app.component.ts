@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'movie-app';
+  title = 'MOVIE-APP';
+
+
+resetTitle(){
+  this.title="CINEMA APP";
+}
 }
